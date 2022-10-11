@@ -77,3 +77,4 @@ print("Hay",n," cantidad de alumnos ")
 A,R=aprobados(n,correc)
 
 print("Hubieron",A,"aprovados y",R,"reprobados")
+

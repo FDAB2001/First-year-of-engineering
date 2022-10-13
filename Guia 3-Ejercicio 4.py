@@ -1,3 +1,15 @@
+#Una Cadena de Supermercados cuenta con 15 Supermercados adheridos y cuenta con un
+#Centro de Cómputos en donde se registran todas las ventas de cada uno de ellos. Cada
+#Registro tiene la siguiente información:
+# NRO. DE SUPERMERCADO (de 1 a 15 y —99 para finalizar)
+# IMPORTE DE LA COMPRA
+# CODIGO DE LA COMPRA (1-Efectivo, 2-Cheque, 3-Tarjeta)
+#Se desea calcular e imprimir al fin del proceso para cada SUPERMERCADO:
+#• El NUMERO del mismo
+#• El TOTAL de los tres importes de lo recibido en cada Super (Efectivo, Cheque y
+#Tarjeta)
+#• Además el TOTAL DE TODOS LOS 3 IMPORTES
+
 def importes():
     i=int(input("Inserte importe de la compra: "))
     return(i)
